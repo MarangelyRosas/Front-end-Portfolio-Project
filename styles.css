@@ -1,0 +1,40 @@
+#puzzle {
+   width: 450px;
+   height: 450px;
+   margin-left: 34%;
+}
+
+#puzzle input {
+   width: 50px;
+   height: 50px;
+   box-sizing: border-box;
+   border-spacing: 0;
+   border: solid grey 1px;
+}
+
+.odd-section {
+    background-color: lightgrey;
+}
+
+#solve-button {
+    background-color: rgb(98, 98, 149);
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    margin-left: 40%;
+}
+
+#solve-button:hover {
+    background-color: coral;
+}
+
+.viewTitle {
+    text-align:center;   
+}
+.viewPuzzle {
+    display: block;
+    text-align: center;
+}
