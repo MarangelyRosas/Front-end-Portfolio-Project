@@ -1,16 +1,19 @@
-#puzzle {
+#puzzle { /* input puzzle width & height of 50 multiplied by 9 */
    width: 450px;
    height: 450px;
    margin-left: 34%;
 }
 
-#puzzle input {
+
+#puzzle input { /* Any input that lives inside or is a child of any element with the ID of "#puzzle" */
    width: 50px;
    height: 50px;
-   box-sizing: border-box;
+   box-sizing: border-box; /* to make sure the border is on the inside */ 
    border-spacing: 0;
    border: solid grey 1px;
 }
+
+
 
 .odd-section {
     background-color: lightgrey;
@@ -33,8 +36,4 @@
 
 .viewTitle {
     text-align:center;   
-}
-.viewPuzzle {
-    display: block;
-    text-align: center;
 }

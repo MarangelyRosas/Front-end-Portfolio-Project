@@ -1,3 +1,4 @@
+// Defining my back-end
 const PORT = 8000
 const axios = require('axios').default
 const express = require('express')
@@ -7,9 +8,9 @@ const index = express()
 index.use(cors())
 index.use(express.json())
 
-index.post('/solve', (req,res) => {
-   console.log(req)
-    const options = {
+// Creating a new root & it's a 'POST' request 
+index.post('/solve', (req,res) => { //Express syntax... // if we make a 'POST' request to the url solve (if we visit localhost.8000/solve),
+    const options = { 
         method: 'POST',
         url: 'https://solve-sudoku.p.rapidapi.com/',
         headers: {
@@ -20,16 +21,16 @@ index.post('/solve', (req,res) => {
   data: {
     puzzle: req.body.numbers
   }
-}
-
+};
+// This is now my backend that's going to handle my request and also keep my API Key safe 
 
 axios.request(options).then((response) => {
-	console.log(response.data)
+	  console.log(response.data)
     res.json(response.data)
-})
-  .catch((error) => {
-	console.error(error);
-});
+  }).catch((error) => {
+      console.error(error);
+	
+  })
 })
 
 index.listen(PORT, () => console.log(`server listening on PORT ${PORT}`))
