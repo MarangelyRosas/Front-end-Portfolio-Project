@@ -1,6 +1,12 @@
 # Front-end-Portfolio-Project
+## This is the URL address:
+To see the app [Click Here](https://transcendent-liger-882880.netlify.app/)
+```
+This is the Project deployed URL: https://transcendent-liger-882880.netlify.app/
+```
 
-## Sudoku Game/Puzzle
+## Sudoku Unravel
+The point of my Sudoku Unravel is for anyone who is struggling trying to solve a Sudoku puzzle to get the answer to their puzzle. It's basically like a 'cheat sheet' or better yet said, a 'puzzle answer revealer'. 
 
 ## Instructions 
 
@@ -15,3 +21,4 @@ Make sure to get numbers from 1-9 across each row, column, as well as in each of
 5. Each horizontal row can only contain numbers from 1 to 9.
 6. Each number in the 3×3 block, vertical column or horizontal row can be used only once.
 7. The game is over when the whole Sudoku grid is correctly filled with numbers.
+
