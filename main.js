@@ -42,7 +42,7 @@ const populateValues = (isSolvable, solution) => {
         inputs.forEach((input, i) => { // for each input value, go into the solution, & loop over it
             input.value = solution[i] // getting the first item of the string & then assigning to the input value
         })
-        displaySolution.innerHTML = 'Congratulations; This is the answer!'
+        displaySolution.innerHTML = 'This is the answer to your puzzle!'
     }  else {
         displaySolution.innerHTML = 'Sorry; This puzzle is not solvable!'
     }
