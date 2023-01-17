@@ -4,7 +4,6 @@
    margin-left: 34%;
 }
 
-
 #puzzle input { /* Any input that lives inside or is a child of any element with the ID of "#puzzle" */
    width: 50px;
    height: 50px;
@@ -12,8 +11,6 @@
    border-spacing: 0;
    border: solid grey 1px;
 }
-
-
 
 .odd-section {
     background-color: lightgrey;
@@ -31,9 +28,19 @@
 }
 
 #solve-button:hover {
-    background-color: coral;
+    background-color: rgb(215, 98, 245);
 }
 
 .viewTitle {
     text-align: center;   
+}
+
+body { 
+    background-color: rgb(163, 131, 191);
+} 
+
+h1 {
+    color: rgb(78, 78, 190);
+    margin-right: 3%;
+    text-align: center;
 }

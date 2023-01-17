@@ -35,7 +35,7 @@ const getValues = () => { // Creating a function to get all the values from the 
     })
     console.log(submitToApi)
 }
-// Creating a function ...
+
 const populateValues = (isSolvable, solution) => {
     const inputs = document.querySelectorAll('input')
     if (isSolvable && solution) { // if puzzle is solvable and there is a solution;   
@@ -72,6 +72,6 @@ const solve = () => {
 
 }
 
-solveButton.addEventListener('click', solve) // attaching the 'getValues' input to the button
+solveButton.addEventListener('click', solve) // will unravel the remaining numbers revealing the answer to the puzzle after clicking the button
 
 
