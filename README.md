@@ -1,8 +1,8 @@
-## Sudoku Unravel 
+# Sudoku Unravel 
 My 1st Front-end Portfolio Project from Pursuit; Class 9.3 Module 2.
 A website/application where you can get the answer to a Sudoku Puzzle OR create your own puzzles and try solving them to sharpen your skills.
 
-# Project Setup
+## Project Setup
 
 Getting started
 1. Fork and clone this repository.
